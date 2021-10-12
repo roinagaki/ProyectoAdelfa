@@ -1,8 +1,5 @@
 @media screen and (max-width: 320px) {
-    .section-principal{
-        grid-template-columns: 1fr;
-        
-      }
+    
   
       h1{
           justify-content: center;
@@ -12,16 +9,18 @@
           flex-direction: column;
           align-content: center;
       }
+
+      .navbar-collapse{
+          border-radius: 0%;
+          background-color: whitesmoke;
+      }
 }
 
 
 @media screen and (max-width: 768px){
 
 
-    .section-principal{
-      grid-template-columns: 1fr;
-      
-    }
+
 
     h1{
         justify-content: center;
@@ -30,6 +29,11 @@
     ul{
         flex-direction: column;
         align-content: center;
+    }
+
+    .navbar-collapse{
+        border-radius: none;
+        background-color: whitesmoke;
     }
 }
 

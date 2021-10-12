@@ -40,8 +40,8 @@ html {
   color: palevioletred;
   font-size: 2rem; }
 
-.card-gral {
-  background-color: palegreen; }
+#fondo-nosotros {
+  background-color: #f7aa67; }
 
 .card-text {
   color: coral; }
@@ -50,7 +50,6 @@ td {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem; }
 
-/*Estilo por clases*/
 .titulos-tabla th {
   color: lightseagreen;
   font-size: 2rem;
@@ -152,21 +151,23 @@ footer {
   font-size: 2rem; }
 
 @media screen and (max-width: 320px) {
-  .section-principal {
-    grid-template-columns: 1fr; }
   h1 {
     justify-content: center; }
   ul {
     flex-direction: column;
-    align-content: center; } }
+    align-content: center; }
+  .navbar-collapse {
+    border-radius: 0%;
+    background-color: whitesmoke; } }
 
 @media screen and (max-width: 768px) {
-  .section-principal {
-    grid-template-columns: 1fr; }
   h1 {
     justify-content: center; }
   ul {
     flex-direction: column;
-    align-content: center; } }
+    align-content: center; }
+  .navbar-collapse {
+    border-radius: none;
+    background-color: whitesmoke; } }
 
 /*media queries*/
