@@ -46,6 +46,9 @@ html {
 .card-text {
   color: coral; }
 
+.row {
+  margin-right: 1rem; }
+
 td {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem; }
@@ -167,7 +170,7 @@ footer {
     flex-direction: column;
     align-content: center; }
   .navbar-collapse {
-    border-radius: none;
+    border-radius: 0%;
     background-color: whitesmoke; } }
 
 /*media queries*/
