@@ -1,0 +1,42 @@
+
+.logo {
+    
+    text-decoration: none;
+    font-size: 60rem;
+    font-family: 'Ubuntu', sans-serif;
+    word-spacing: 0px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    
+
+}
+
+.container-fluid{
+    justify-items: flex-start;
+
+}
+
+
+
+@keyframes aparecer {
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+
+}
+
+.navbar{
+    background-color: whitesmoke;
+}
+    
+.navbar-collapse{
+    flex-grow: 0;
+    font-size: 3rem;
+    background-color: peachpuff;
+    border-radius: 50%;
+    
+}
+
