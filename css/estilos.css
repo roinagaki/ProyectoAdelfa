@@ -32,7 +32,7 @@ html {
   flex-grow: 0;
   font-size: 3rem;
   background-color: peachpuff;
-  border-radius: 50%; }
+  border-radius: 70%; }
 
 .card {
   background-color: peachpuff; }
@@ -72,9 +72,16 @@ td {
 .amigurumis {
   width: 200px;
   height: 200px;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 5px;
   background-color: wheat; }
+
+.amigurumis {
+  transition: all 300ms;
+  position: relative; }
+
+.amigurumis:hover {
+  transform: scale(1.15); }
 
 .logo {
   color: coral;
@@ -95,13 +102,13 @@ td {
 .tamaño-img {
   height: 200px;
   width: 200px;
-  margin: 20px; }
+  padding: 5px; }
 
 .fondo-productos {
-  background-color: violet; }
+  background-color: peachpuff; }
 
 .fondo-productos2 {
-  background-color: paleturquoise; }
+  background-color: peachpuff; }
 
 .bordes-redondeados {
   border-radius: 50%; }
@@ -150,6 +157,28 @@ td {
 
 .btn {
   align-items: center; }
+
+ul {
+  list-style: none;
+  display: flex; }
+
+ul li figure {
+  position: relative; }
+
+ul li figcaption {
+  display: none;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6); }
+
+ul li figure:hover figcaption {
+  display: block; }
 
 footer {
   background: linear-gradient(to bottom, #e4788a, lightgoldenrodyellow);
