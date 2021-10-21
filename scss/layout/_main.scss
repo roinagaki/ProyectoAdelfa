@@ -19,10 +19,12 @@
     
 }
 
-.row {
-    margin: 0.5rem;
+.hero{
+    background-color: peachpuff;
     
 }
+
+
 
 .carousel{
     margin: 0.5rem;
@@ -68,6 +70,7 @@ td{
 
 .amigurumis:hover{
     transform: scale(1.15);
+    
 }
 
 .logo {
@@ -115,11 +118,7 @@ td{
     border-radius: 50%;
 }
 
-.box{
-    background-color: peachpuff;
-    
 
-}
 
 .card-img-top{
     height: 500px;

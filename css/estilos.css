@@ -26,13 +26,15 @@ html {
     opacity: 1; } }
 
 .navbar {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  padding: 3rem; }
 
 .navbar-collapse {
   flex-grow: 0;
-  font-size: 3rem;
-  background-color: peachpuff;
-  border-radius: 70%; }
+  font-size: 3rem; }
+
+.navbar-nav {
+  gap: 2rem; }
 
 .card {
   background-color: peachpuff; }
@@ -48,8 +50,8 @@ html {
 .card-text {
   color: coral; }
 
-.row {
-  margin: 0.5rem; }
+.hero {
+  background-color: peachpuff; }
 
 .carousel {
   margin: 0.5rem;
@@ -112,9 +114,6 @@ td {
 
 .bordes-redondeados {
   border-radius: 50%; }
-
-.box {
-  background-color: peachpuff; }
 
 .card-img-top {
   height: 500px; }
@@ -181,7 +180,7 @@ ul li figure:hover figcaption {
   display: block; }
 
 footer {
-  background: linear-gradient(to bottom, #e4788a, lightgoldenrodyellow);
+  background: linear-gradient(to bottom, #bd9da2, #fcecf1);
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   color: black;
@@ -225,24 +224,29 @@ footer {
   box-shadow: 0px 5px 5px 0px;
   filter: none; }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 576px) {
   h1 {
     justify-content: center; }
   ul {
-    flex-direction: column;
     align-content: center; }
   .navbar-collapse {
     border-radius: 0%;
     background-color: whitesmoke; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   h1 {
     justify-content: center; }
   ul {
-    flex-direction: column;
     align-content: center; }
   .navbar-collapse {
     border-radius: 0%;
     background-color: whitesmoke; } }
+
+@media screen and (max-width: 1200px) {
+  ul {
+    flex-wrap: wrap; }
+  .row {
+    display: flex;
+    flex-direction: column; } }
 
 /*media queries*/

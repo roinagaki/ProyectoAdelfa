@@ -30,13 +30,20 @@
 
 .navbar{
     background-color: whitesmoke;
+    padding: 3rem;
+
 }
     
 .navbar-collapse{
     flex-grow: 0;
     font-size: 3rem;
-    background-color: peachpuff;
-    border-radius: 70%;
+   
+   
     
+    
+}
+
+.navbar-nav{
+    gap: 2rem;
 }
 

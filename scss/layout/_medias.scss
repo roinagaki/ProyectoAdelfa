@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 576px) {
     
   
       h1{
@@ -6,7 +6,7 @@
       }
   
       ul{
-          flex-direction: column;
+
           align-content: center;
       }
 
@@ -15,11 +15,12 @@
           background-color: whitesmoke;
       }
 
+
       
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 
 
     h1{
@@ -27,7 +28,7 @@
     }
 
     ul{
-        flex-direction: column;
+        
         align-content: center;
     }
 
@@ -39,4 +40,14 @@
     
 }
 
-
+@media screen and (max-width: 1200px){
+        ul{
+            flex-wrap: wrap;
+        
+        }
+        
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+}
