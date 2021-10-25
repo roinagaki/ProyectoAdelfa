@@ -39,6 +39,9 @@ html {
 .card {
   background-color: peachpuff; }
 
+.row {
+  margin: 0.5rem; }
+
 .card-title {
   color: palevioletred;
   font-size: 2rem; }
