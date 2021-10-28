@@ -41,13 +41,13 @@
 }
 
 @media screen and (max-width: 1200px){
-        ul{
+        .productos{
             flex-wrap: wrap;
         
         }
         
         .row{
             display: flex;
-            flex-direction: column;
+           
         }
 }

@@ -109,9 +109,11 @@ td{
     padding: 5px;
 }
 
-.fondo-productos{
-    background-color: peachpuff;
-
+.productos{
+    background: peachpuff;
+    
+    
+    
 }
 
 .fondo-productos2{
@@ -123,7 +125,6 @@ td{
 .bordes-redondeados{
     border-radius: 50%;
 }
-
 
 
 .card-img-top{
@@ -181,17 +182,11 @@ td{
     align-items: center;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-
-}
-
-ul li figure{
+div figure{
     position: relative;
 }
 
-ul li figcaption{
+div figcaption{
     display: none;
     position: absolute;
     left: 5px;
@@ -208,7 +203,28 @@ ul li figcaption{
 
 
 
-ul li figure:hover figcaption{
+div figure:hover figcaption{
     display: block;
 } 
+
+.box {
+    background-color: peachpuff;
+    display: inline-block;
+}
+
+.servicios{
+    background: papayawhip;
+    text-align: center;
+    align-content: center;
+}
+
+h2{
+    font-size: 40px;
+    color: rgb(173, 147, 125)
+}
+
+.carousel-caption{
+    color: black;
+    font-size: 20px;
+}
 

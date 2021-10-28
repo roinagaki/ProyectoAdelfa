@@ -109,8 +109,8 @@ td {
   width: 200px;
   padding: 5px; }
 
-.fondo-productos {
-  background-color: peachpuff; }
+.productos {
+  background: peachpuff; }
 
 .fondo-productos2 {
   background-color: peachpuff; }
@@ -160,14 +160,10 @@ td {
 .btn {
   align-items: center; }
 
-ul {
-  list-style: none;
-  display: flex; }
-
-ul li figure {
+div figure {
   position: relative; }
 
-ul li figcaption {
+div figcaption {
   display: none;
   position: absolute;
   left: 5px;
@@ -179,11 +175,28 @@ ul li figcaption {
   color: white;
   background: rgba(0, 0, 0, 0.6); }
 
-ul li figure:hover figcaption {
+div figure:hover figcaption {
   display: block; }
 
+.box {
+  background-color: peachpuff;
+  display: inline-block; }
+
+.servicios {
+  background: papayawhip;
+  text-align: center;
+  align-content: center; }
+
+h2 {
+  font-size: 40px;
+  color: #ad937d; }
+
+.carousel-caption {
+  color: black;
+  font-size: 20px; }
+
 footer {
-  background: linear-gradient(to bottom, #bd9da2, #fcecf1);
+  background: linear-gradient(to bottom, #fcecf1, #bd9da2);
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   color: black;
@@ -246,10 +259,9 @@ footer {
     background-color: whitesmoke; } }
 
 @media screen and (max-width: 1200px) {
-  ul {
+  .productos {
     flex-wrap: wrap; }
   .row {
-    display: flex;
-    flex-direction: column; } }
+    display: flex; } }
 
 /*media queries*/
