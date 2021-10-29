@@ -37,6 +37,7 @@
         background-color: whitesmoke;
     }
     
+
     
 }
 
@@ -50,4 +51,16 @@
             display: flex;
            
         }
+}
+
+@media screen and (max-width: 576px) {
+    iframe{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    div figcaption{
+        margin-right: 0px;
+    }
+    
 }
